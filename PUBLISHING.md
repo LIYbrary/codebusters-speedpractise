@@ -1,7 +1,7 @@
 # Publishing Codebusters Speed Guide
 
 This folder is an installable offline web app (PWA). It's hosted on GitHub Pages at
-`https://lopa23.github.io/codebusters/` (once the repo is pushed), and the same site becomes
+`https://maitreyeesingh2012-arch.github.io/codebusters-speedpractise/` (once the repo is pushed), and the same site becomes
 both the Android app and the desktop app.
 
 To update the app: edit `../cipher-speed-guide.html`, run `python make_app.py` in the codebusters
@@ -21,12 +21,13 @@ It opens in its own window, gets a Start-menu / dock icon, and works offline.
 ## Google Play
 
 1. Open https://www.pwabuilder.com, enter the site URL, choose **Package for stores → Android**.
-2. Package id: `io.github.lopa23.codebusters`. Download the zip and **keep the signing key and its passwords safe**.
-3. Add the zip's `assetlinks.json` entry to the `lopa23.github.io` repo at `.well-known/assetlinks.json`.
-   That file is a JSON array, so add it beside the Sound Garden and Geography Bee entries.
+2. Package id: `io.github.maitreyeesingh2012arch.codebusters`. Download the zip and **keep the signing key and its passwords safe**.
+3. Create a repo named `maitreyeesingh2012-arch.github.io` in the same account (if it doesn't exist) and put the
+   zip's `assetlinks.json` in it at `.well-known/assetlinks.json`, with GitHub Pages on. Android checks this file
+   at the root of the domain to let the app open the site full screen, with no browser bar.
    After Play App Signing is on, also add the SHA-256 fingerprint from Play Console → App integrity.
 4. In Play Console (one-time US$25 developer fee), create the app, upload the `.aab`, and fill in:
-   - Privacy policy: `https://lopa23.github.io/codebusters/privacy.html`
+   - Privacy policy: `https://maitreyeesingh2012-arch.github.io/codebusters-speedpractise/privacy.html`
    - Data safety: no data collected or shared.
    - Target audience: 13+ (or include younger ages, which puts it under the Families policy; the app has
      no ads, analytics or accounts, so that's already satisfied).
