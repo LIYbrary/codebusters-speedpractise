@@ -2,6 +2,8 @@
  "name": "Codebusters Speed Guide",
  "short_name": "Codebusters",
  "id": "./",
+ "lang": "en",
+ "dir": "ltr",
  "description": "Practice every Codebusters cipher with real tournament questions, timers, drills and flashcards.",
  "start_url": "./",
  "scope": "./",

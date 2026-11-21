@@ -1,5 +1,7 @@
 # Publishing Codebusters Speed Guide
 
+By Maitreyee Singh. Live at https://maitreyeesingh2012-arch.github.io/codebusters-speedpractise/
+
 This folder is an installable offline web app (PWA). It's hosted on GitHub Pages at
 `https://maitreyeesingh2012-arch.github.io/codebusters-speedpractise/` (once the repo is pushed), and the same site becomes
 both the Android app and the desktop app.
